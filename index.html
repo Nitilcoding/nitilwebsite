@@ -1,89 +1,34 @@
- <!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <title>Nitil Kumar Shah | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mera Pehla Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>नमस्ते! मेरा पहला वेबसाइट</h1>
+    <p>यह एक साधारण HTML/CSS/JS उदाहरण है।</p>
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header>
-        <img src="Nitil.jpeg" alt="Nitil's Photo" class="profile-img">
-        <h1>Nitil Kumar Shah</h1>
-        <p>Web Developer | Student | Tech Enthusiast</p>
-    </header>
-
+  <main>
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Nitil Kumar Shah, a dedicated and creative web developer currently pursuing my diploma at Govt. Polytechnic College, Sidhi (MP).
-          I have a strong interest in front-end and back-end web development, and I love building user-friendly, functional websites using HTML, CSS, PHP, and MySQL.
-          I'm always curious to learn new things in the field of technology, and I regularly work on mini projects to improve my skills.</p>
-   
+      <h2>About</h2>
+      <p>यहाँ आप अपनी जानकारी या प्रोजेक्ट का विवरण रख सकते हैं।</p>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>Class 10th: DAV Higher Secondary Public School, Amlori Singrauli MP</li>
-            <li>Diploma: Govt. Polytechnic College, Sidhi MP</li>
-        </ul>
+    <section id="counter">
+      <h2>काउंट मेरा बटन दबाएँ</h2>
+      <button id="incBtn">क्लिक करो</button>
+      <p>क्लिक काउंट: <span id="count">0</span></p>
     </section>
+  </main>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="skill"><label>HTML</label><div class="bar html"></div></div>
-        <div class="skill"><label>CSS</label><div class="bar css"></div></div>
-        <div class="skill"><label>PHP</label><div class="bar php"></div></div>
-        <div class="skill"><label>MySQL</label><div class="bar mysql"></div></div>
-    </section>
+  <footer>
+    <p>&copy; 2025 — आपका नाम</p>
+  </footer>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li><strong>Portfolio Website:</strong> Personal responsive portfolio using HTML/CSS</li>
-            <li><strong>Library Management System:</strong> Developed using PHP & MySQL</li>
-            <li><strong>Task Manager App:</strong> Web app to manage daily tasks using PHP & MySQL</li>
-        </ul>
-    </section>
-
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="library.sql.zip" download class="download-btn">Download My Resume</a>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Info</h2>
-        <p>Phone: +91 7000737680</p>
-        <p>Email: <a href="mailto:nitilkrshah@gmail.com">nitilkrshah@gmail.com</a></p>
-        <p>Instagram: <a href="https://instagram.com/nitil_shah31" target="_blank">@nitil_shah31</a></p>
-
-        <div class="contact-icons">
-            <a href="https://wa.me/917000737680" target="_blank">
-                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" />
-            </a>
-            <a href="mailto:nitilkrshah@gmail.com">
-                <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" />
-            </a>
-            <a href="https://instagram.com/nitil_shah31" target="_blank">
-                <img src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="Instagram" />
-            </a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Nitil Kumar | All Rights Reserved</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
